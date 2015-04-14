@@ -1,0 +1,7 @@
+<%= form_for @entry do |x| %>
+	<%= x.label :author %>
+	<%= x.text_field :author %>
+	<%= x.label :photo_url %>
+	<%= x.text_field :photo_url %>
+	<%= x.submit "Edit this Entry", id: "submit" %>
+<% end %>
